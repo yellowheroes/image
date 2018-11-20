@@ -20,4 +20,4 @@ $source = "../images/" . $filename;
 $destination = "../images/compressed/" . $filename;
 $compress = (new Image())->compress($source, $destination); // go with defaults for quality(80) and maxWidth(800px)
 
-echo 'initial';
+echo 'newest change at 15:18';
