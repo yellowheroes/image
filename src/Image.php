@@ -23,7 +23,7 @@ class Image
      * @param int $maxWidth
      * @return bool
      */
-    public function compress($source, $destination, $quality = 80, $maxWidth = 800): boolean
+    public function compress($source, $destination, $quality = 80, $maxWidth = 800): bool
     {
         $imageResource = null;
 
